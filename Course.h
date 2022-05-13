@@ -24,7 +24,7 @@ class Course
 		void setCourseName(string n);
 		void setCreditHours(int h);
 		void getCourseDetails();
-		void courseRegister(int x, float m,string matric);
+		void courseRegister(int x, float m,int matric);
 	
 };
 

@@ -60,10 +60,10 @@ void Course::getCourseDetails(){
 } 
 
 
-void Course::courseRegister(int x,float m,string matric){
+void Course::courseRegister(int x,float m,int matric){
 //	Student student1;
 	
-	string matricnumber= matric;
+	string matricnumber= to_string(matric);
 	int choice=x;
 	int grade=m;
 	bool apply;

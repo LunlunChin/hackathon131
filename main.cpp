@@ -123,7 +123,7 @@ void registerCourse() {
 	Student student("Lun",1212121,"shshsh",1000,52.2);
 	
 	float stuGrade=student.getGrade();
-	string stuMatric=student.getMatricNo();
+	int stuMatric=student.getMatricNo();
 	string courseid,n,o,line;
 	int choice=100;
 		ifstream dataFile;
